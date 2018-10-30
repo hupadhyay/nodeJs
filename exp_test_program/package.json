@@ -1,0 +1,19 @@
+{
+  "name": "exp_test_program",
+  "version": "1.0.0",
+  "description": "Test program to use express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Himanshu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "npm": "^6.4.1"
+  },
+  "engines": {
+    "node": "10.10.0",
+    "npm": "6.4.1"
+  }
+}

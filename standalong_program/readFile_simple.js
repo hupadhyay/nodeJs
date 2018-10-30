@@ -1,0 +1,1 @@
+var fs = require('fs');var fileName = '/Users/himanshu/development/nodeJs/package.json';try{	var fileContent = fs.readFileSync(fileName, 'utf8');	console.log('Content of file is : ', fileContent);}catch(err){	console.log('error occurs while reading file');}

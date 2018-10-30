@@ -1,0 +1,1 @@
+var fs = require('fs');var fileName = '/Users/himanshu/development/nodeJs/writeStream.txt';var stream = fs.createWriteStream(fileName);var interval = setInterval(function() {     	stream.write('tick ' + Date.now() + '\n');	}, 100);	   setTimeout(function() {     	clearInterval(interval);     	stream.end();	}, 4950);
